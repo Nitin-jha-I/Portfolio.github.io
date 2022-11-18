@@ -1,0 +1,131 @@
+html{
+    font-size: 22px;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;    
+}
+img.self{
+    height: 120px;    
+}
+img.certificate{
+    width:500px;
+}
+img.certificate3{
+    height:353px;
+    width:500px;
+}
+nav ul{
+    display: flex;
+    align-items: right;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: aqua;
+}
+nav ul li.brand{
+    padding:0 2px;
+    text-decoration-line: underline;
+}
+nav ul li.home{
+    padding-left:850px ;
+    padding-bottom: 0 1100px;
+    color:aqua;
+    cursor:pointer;
+    text-decoration: none;
+}
+nav ul li.home:hover{
+    color: red;
+}
+nav ul li.About{
+    color:aqua;
+    cursor:pointer;
+    text-decoration: none;
+}
+nav ul li.About:hover{
+    color: red;
+}
+a{
+    color: aqua;
+    list-style-type: none;
+}
+a:hover{
+    color: red;
+}
+nav ul li.Login{
+    color:aqua;
+    cursor:pointer;
+    text-decoration: none;
+}
+nav ul li.Login:hover{
+    color: red;
+}
+nav ul li{
+    padding: 0 ;
+}
+.brand img{
+    width:90px;
+    padding: 0 15px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+ul li{
+    list-style-type:none;
+    overflow-wrap: break-word;
+}
+h2.contact{
+    text-decoration: underline;
+}
+form{
+    text-align: center;
+}
+h2.feedback{
+    text-decoration: underline;
+}
+#preloader{
+    background: black url(preloader.gif) no-repeat center center;
+    height:100vh;
+    width: 100%;
+    position:fixed;
+    z-index: 1000;
+}
+fieldset center{
+    width:120px;
+    height: 120px;
+}
+h1{
+    text-decoration: underline;
+}
+button{
+    border-color: aqua;
+    cursor: pointer;
+    color: red;
+    height:50px;
+    width: 150px;
+    background-color: black;
+    font-size-adjust: inherit;
+}
+fieldset{
+    text-align:center;
+}
+form{
+    text-align:center;
+}
+a.about{
+    text-decoration: none;
+    color: aqua;
+}
+a.logout{
+    text-decoration: none;
+    color: aqua;
+}
+a.Home{
+    text-decoration: none;
+    color: aqua;
+}
